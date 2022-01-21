@@ -1,0 +1,63 @@
+body{
+    background-color: #fffffe;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    margin: 20px 10px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.banner h1{
+    color: #094067;
+}
+.banner h2{
+    color: #5f6c7b;
+    text-decoration: underline;
+}
+.information{
+    position: relative;
+    font-size: 24px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    background-color: #094067;
+    border:1px solid #094067;
+    border-radius: 10px;
+}
+.information form{
+    color: #fffffe;
+    margin: 20px;
+    padding: 10px;
+    font-family: helvetica;
+}
+.information form input[type="text"], input[type="email"]{
+    width: 100%;
+}
+
+.information form input[type="text"],  input[type="tel"], input[type="password"], input[type="email"]{
+    border-radius: 25px;
+    font-size: 40px;
+    padding: 10px;
+}
+.information form input[type="date"]{
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.information form select, textarea{
+    font-size: 30px;
+    border-radius: 5px;
+}
+.information form input[type="submit"]{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: #3da9fc;
+    color: #fffffe;
+    font-weight: bold;
+}

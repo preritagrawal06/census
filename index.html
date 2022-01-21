@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Information Center</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>NAMASTE!</h1>
+        <h2>CENSUS 2022</h2>
+    </div>
+    <div class="information">
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" id="fname" placeholder="Enter your First Name"required>
+            <br><br>
+            <label for="mname">Middle Name:</label><br>
+            <input type="text" name="mname" id="mname"  placeholder="Enter your Middle Name(IF ANY)">
+            <br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" id="lname" required placeholder="Enter your Last Name">
+            <br><br>
+            <label for="gender">MALE</label>
+            <input type="radio" name="gender" id="male">
+            <label for="gender">FEMALE</label>
+            <input type="radio" name="gender" id="female">
+            <label for="gender">OTHER</label>
+            <input type="radio" name="gender" id="other" required>
+            <br><br>
+            <label for="dob">DATE OF BIRTH: </label>
+            <input type="date" name="dob" id="dob" required>
+            <br><br>
+            <label for="address">ADDRESS:</label><br>
+            <textarea name="address" id="address" cols="30" rows="10" required  placeholder="Enter your complete address"></textarea>
+            <br><br>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required  placeholder="1234567890">
+            <br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="abc@xyz.com">
+            <br><br>
+            <label for="qualifications">qualifications:</label>
+            <select name="qualifications" id="qualifictions" required>
+                <option value="-1">select from below</option>
+                <option value="0">uneducated</option>
+                <option value="1">Matriculate</option>
+                <option value="2">Intermediate</option>
+                <option value="3">Undergraduate</option>
+                <option value="4">Postgraduate</option>
+            </select>
+            <br><br>
+            <label for="occupation">occupation:</label>
+            <select name="occupation" id="occupation" required>
+                <option value="-1">select from below</option>
+                <option value="0">Student</option>
+                <option value="1">Public Sector job</option>
+                <option value="2">Private Sector job</option>
+                <option value="3">Business</option>
+                <option value="4">Homemaker</option>
+                <option value="5">unemployed</option>
+            </select>
+            <br><br>
+            <label for="income">Yearly Income:</label>
+            <select name="income" id="income" required>
+                <option value="-1">select from below</option>
+                <option value="0">less than 2.5 lakh</option>
+                <option value="1">2.5 lakh to 5 lakh</option>
+                <option value="2">5 lakh to 10 lakh</option>
+                <option value="3">more than 10 lakh</option>
+            </select>
+            <br><br>
+            <label for="adhar">Adhaar number:</label><br>
+            <input type="password" name="adhar" id="adhar" required  placeholder="123456789012"><br><br>
+            <input type="submit" name="submit" id="submit">
+        </form>
+
+    </div>
+</body>
+</html>
