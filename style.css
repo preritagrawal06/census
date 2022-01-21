@@ -61,3 +61,48 @@ body{
     color: #fffffe;
     font-weight: bold;
 }
+
+@media screen and (max-width: 640px){
+    .banner{
+        margin: 20px 10px;
+        position: relative;
+        text-align: center;
+        font-size: 24px;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    .information{
+        position: relative;
+        font-size: 18px;
+        margin: 20px 20px;
+        padding: 20px 20px;
+        background-color: #094067;
+        border:1px solid #094067;
+        border-radius: 10px;
+    }
+    .information form input[type="text"],  input[type="tel"], input[type="password"], input[type="email"]{
+        border-radius: 25px;
+        font-size: 20px;
+        padding: 5px;
+        width: 100%;
+    }
+    .information form input[type="date"]{
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 5px;
+        height: 1.2em;
+    }
+    .information form textarea{
+        font-size: 20px;
+        border-radius: 5px;
+        height: 15%;
+        width: 100%;
+    }
+    .information form select{
+        font-size: 18px;
+        width: 100%;
+    }
+    .information form input[type="radio"]{
+        display: inline-block;
+    }
+}
